@@ -7,11 +7,11 @@ import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
-    <section className="h-full bg-[#0B0C10] mt-[-50px]"> {/* поднимаем секцию выше с отрицательным отступом */}
+    <section className="h-full bg-[#0B0C10] mt-[50px]"> {/* поднимаем секцию выше с отрицательным отступом */}
       <div className="container mx-auto h-full">
         <div className="flex flex-col justify-center min-h-[75vh] py-4"> {/* уменьшили min-h и py */}
           {/* text */}
-          <div className="text-center max-w-[900px] mx-auto -mt-10"> {/* еще выше подняли блок с текстом */}
+          <div className="text-center max-w-[900px] mx-auto"> {/* еще выше подняли блок с текстом */}
             <span className="text-2xl md:text-3xl text-[#F5F5F5] mb-4 block">
               3D Artist & Level Designer
             </span>
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
       </div>
       {/* Stats section */}
-      <div className="bg-[#0B0C10]/90 mt-[-30px]"> {/* подняли секцию Stats выше */}
+      <div className="bg-[#0B0C10]/90 mt-[30px]"> {/* подняли секцию Stats выше */}
         <Stats />
       </div>
     </section>
